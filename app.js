@@ -53,7 +53,11 @@ res.render('about',{
   title:"About page"
 });
 });
-
+app.get('/projects',(req,res)=>{
+res.render('projects',{
+  title:"About page"
+});
+});
 app.get('/bad',(req,res)=>{
   res.send({
     statuscode:"not found"
