@@ -55,7 +55,7 @@ res.render('about',{
 });
 app.get('/projects',(req,res)=>{
 res.render('projects',{
-  title:"About page"
+  title:"Projects"
 });
 });
 app.get('/bad',(req,res)=>{
